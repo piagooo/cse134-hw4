@@ -1,0 +1,46 @@
+html{
+    max-width: 80%;
+    margin-left: 10%;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1e0062;
+}
+h1{
+    font-size: 2.50rem;
+}
+h2{
+    font-size: 1.75rem;
+}
+.latin{
+    font-style: italic;
+}
+
+#warning{
+    background-color: #ffcda4;
+}
+
+blockquote{
+    border: black dashed 2px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+a:hover{
+    color: #49b257;
+    font-size: 105%;
+}
+a:focus, input:focus, button:focus{
+    color: #2f0390;
+    background-color: #cdd3ff;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*The later styling wins because of the CSS cascade, which is how CSS is read, from top to bottom, whatever appears more at the bottom is the value that the selector chooses in the case where selectors are identical*/
